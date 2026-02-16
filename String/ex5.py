@@ -8,3 +8,17 @@
 
 # yaivePNT
 
+str = "PyNaTive"
+result = ""
+
+for letter in str:
+    if letter.islower():
+        result += letter
+
+for letter in str:
+    if letter.isupper():
+        result += letter
+
+print(result)
+
+
